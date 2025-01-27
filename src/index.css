@@ -1,28 +1,37 @@
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
 }
 
-.pulse {
-  animation: pulse 2s infinite;
+#first-up {
+  height: 15rem;
+  width: 7px;
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1.05);
-    opacity: 0.8;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
+#traffic-lights-container {
+  height: 34rem;
+  width: 12rem;
+  border-radius: 1rem;
+}
+
+.red-circle,
+.yellow-circle,
+.green-circle {
+  height: 10rem;
+  width: 10rem;
+}
+
+.red-circle {
+  background-color: red;
+}
+
+.yellow-circle {
+  background-color: yellow;
+}
+
+.green-circle {
+  background-color: green;  
+}
+
+.highlight  {
+  box-shadow: 0px 0px 20px 20px rgb(199, 195, 195);
 }

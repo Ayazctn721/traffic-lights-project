@@ -1,9 +1,10 @@
-import Logo from './components/Logo';
+// import Logo from './components/Logo';
+import TrafficLights from './components/TrafficLights';
 
 function App() {
   return (
     <>
-      <Logo />
+      <TrafficLights />
     </>
   );
 }
